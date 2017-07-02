@@ -9,7 +9,7 @@
 
 **rbenvのインストール**  
 最初に以下のようにコマンドを打ち、rbenvをインストールする。  
-'$sudo apt-get install -y rbenv'
+`$sudo apt-get install -y rbenv`
 
 
 調べたところ、以下のように  
