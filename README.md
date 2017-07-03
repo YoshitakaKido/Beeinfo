@@ -16,7 +16,7 @@
 
 
 調べたところ、以下のように  
-
+`$cd `  
 `$git clone git://github.com/sstephenson/rbenv.git .rbenv`  
 
 とコマンドを打ってインストールする方法もあるらしく、  
