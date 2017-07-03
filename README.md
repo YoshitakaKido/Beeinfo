@@ -7,8 +7,11 @@
 * rbenv  
 * ruby-build  
 
-***rbenvのインストール***  
-**Step1** rbenvをインストールする。  
+###rbenvのインストール
+**Step1 パッケージのインストール**  
+最初にrbenvをインストールする為、以下のコマンドを実行  
+`$sudo apt-get update`  
+`$sudo apt-get upgrade`  
 `$sudo apt-get install -y rbenv`
 
 
@@ -19,6 +22,12 @@
 とコマンドを打ってインストールする方法もあるらしく、  
 もしパッケージからインストールできなかった場合はgitからクローンしてください。  
 
+**Step2 PATHの設定**  
+インストールしただけではPATHがないので、以下のようにしてPATHを作ってあげる。  
+`$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`  
+`$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`  
 
-`$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
-`$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+PATHをとおせたら最後に以下のコマンドを実行  
+`source ~/.bash_profile`
+
+
