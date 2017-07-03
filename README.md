@@ -7,7 +7,7 @@
 * rbenv  
 * ruby-build  
 
-###rbenvのインストール
+### rbenvのインストール
 **Step1 パッケージのインストール**  
 最初にrbenvをインストールする為、以下のコマンドを実行  
 `$sudo apt-get update`  
